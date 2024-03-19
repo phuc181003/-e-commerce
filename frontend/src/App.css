@@ -1,0 +1,19 @@
+
+.header-topbar {
+  overflow: hidden;
+  background: #545185;
+}
+
+.moving-text {
+  white-space: nowrap;
+  animation: moveLeft 20s linear infinite;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
